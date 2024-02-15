@@ -16,10 +16,8 @@ public class Main {
 		
 		for (int i = 0; i<5; i++) {
 			System.out.print("Digite a "+(i+1)+"ª cor:\n");		
-			cores.add(leia.next());
-			
+			cores.add(leia.next());	
 		}
-		
 
 		System.out.print("Listar todas as cores:\n\n");
 		for (int i = 0; i<5; i++) {
@@ -32,7 +30,5 @@ public class Main {
         for (String cor : cores) {
             System.out.println(cor);
         }
-
 	}
-
 }
